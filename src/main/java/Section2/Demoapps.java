@@ -1,0 +1,120 @@
+package Section2;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Demoapps {
+
+	public static void main(String[] args) throws InterruptedException, AWTException {
+		// TODO Auto-generated method stub
+		WebDriver driver=new ChromeDriver();
+		Thread.sleep(1000);
+		driver.get("https://demoapps.qspiders.com/ui?scenario=1");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@placeholder='Enter your name']")).click();
+		Thread.sleep(2000);
+		Robot r=new Robot();
+		r.keyPress(KeyEvent.VK_SHIFT);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_T);
+		r.keyRelease(KeyEvent.VK_T);
+		r.keyPress(KeyEvent.VK_H);
+		r.keyRelease(KeyEvent.VK_H);
+		r.keyPress(KeyEvent.VK_I);
+		r.keyRelease(KeyEvent.VK_I);
+		r.keyPress(KeyEvent.VK_M);
+		r.keyRelease(KeyEvent.VK_M);
+		r.keyPress(KeyEvent.VK_U);
+		r.keyRelease(KeyEvent.VK_U);
+		r.keyPress(KeyEvent.VK_R);
+		r.keyRelease(KeyEvent.VK_R);
+		r.keyPress(KeyEvent.VK_U);
+		r.keyRelease(KeyEvent.VK_U);
+		r.keyPress(KeyEvent.VK_G);
+		r.keyRelease(KeyEvent.VK_G);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_N);
+		r.keyRelease(KeyEvent.VK_N);
+		r.keyRelease(KeyEvent.VK_SHIFT);
+		Thread.sleep(2000);
+		r.keyPress(KeyEvent.VK_TAB);
+		r.keyRelease(KeyEvent.VK_TAB);
+		Thread.sleep(2000);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_T);
+		r.keyRelease(KeyEvent.VK_T);
+		r.keyPress(KeyEvent.VK_H);
+		r.keyRelease(KeyEvent.VK_H);
+		r.keyPress(KeyEvent.VK_I);
+		r.keyRelease(KeyEvent.VK_I);
+		r.keyPress(KeyEvent.VK_M);
+		r.keyRelease(KeyEvent.VK_M);
+		r.keyPress(KeyEvent.VK_U);
+		r.keyRelease(KeyEvent.VK_U);
+		r.keyPress(KeyEvent.VK_R);
+		r.keyRelease(KeyEvent.VK_R);
+		r.keyPress(KeyEvent.VK_U);
+		r.keyRelease(KeyEvent.VK_U);
+		r.keyPress(KeyEvent.VK_G);
+		r.keyRelease(KeyEvent.VK_G);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_N);
+		r.keyRelease(KeyEvent.VK_N);
+		r.keyPress(KeyEvent.VK_SHIFT);
+		r.keyPress(KeyEvent.VK_2);
+		r.keyRelease(KeyEvent.VK_SHIFT);
+		r.keyRelease(KeyEvent.VK_2);
+		r.keyPress(KeyEvent.VK_G);
+		r.keyRelease(KeyEvent.VK_G);
+		r.keyPress(KeyEvent.VK_M);
+		r.keyRelease(KeyEvent.VK_M);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_I);
+		r.keyRelease(KeyEvent.VK_I);
+		r.keyPress(KeyEvent.VK_L);
+		r.keyRelease(KeyEvent.VK_L);
+		r.keyPress(KeyEvent.VK_PERIOD);
+		r.keyRelease(KeyEvent.VK_PERIOD);
+		r.keyPress(KeyEvent.VK_C);
+		r.keyRelease(KeyEvent.VK_C);
+		r.keyPress(KeyEvent.VK_O);
+		r.keyRelease(KeyEvent.VK_O);
+		r.keyPress(KeyEvent.VK_M);
+		r.keyRelease(KeyEvent.VK_M);
+		Thread.sleep(1000);
+		r.keyPress(KeyEvent.VK_TAB);
+		r.keyRelease(KeyEvent.VK_TAB);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyRelease(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_T);
+		r.keyRelease(KeyEvent.VK_T);
+		r.keyPress(KeyEvent.VK_H);
+		r.keyRelease(KeyEvent.VK_H);
+		r.keyPress(KeyEvent.VK_I);
+		r.keyRelease(KeyEvent.VK_I);
+		r.keyPress(KeyEvent.VK_O);
+		r.keyRelease(KeyEvent.VK_O);
+		r.keyPress(KeyEvent.VK_M);
+		r.keyRelease(KeyEvent.VK_M);
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//button[@type='submit']")).submit();
+		
+	}
+
+}
